@@ -1,0 +1,21 @@
+{
+  "name": "events-hack",
+  "version": "1.0.0",
+  "description": "events api for donde.gt",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "lab -t 100 -a Code -L"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "confidence": "^1.1.0",
+    "glue": "^2.0.0",
+    "hapi": "^8.6.1"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.10.0"
+  }
+}
